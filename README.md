@@ -28,7 +28,6 @@ A full-stack eCommerce project built with **Laravel 12** and **Python ML**, impl
 ## Project Structure
 
 ```
-laravel/
 ├─ app/
 │  ├─ Models/ (User, Product, Order)
 │  ├─ Services/MLRecommendationService.php
@@ -37,9 +36,8 @@ laravel/
 │  ├─ orders.json
 │  ├─ products.json
 │  └─ recommendations.json
-├─ ai-tool/
-│  ├─ ml_recommendation.py  # Python ML script
-│  └─ venv/                # Optional virtual environment
+│─ ml_recommendation.py  # Python ML script
+│─ venv/                # Optional virtual environment
 └─ routes/api.php
 ```
 
